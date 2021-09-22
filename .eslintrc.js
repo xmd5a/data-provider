@@ -23,7 +23,7 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: false,
+        devDependencies: true,
         optionalDependencies: false,
         peerDependencies: false,
         packageDir: './',
