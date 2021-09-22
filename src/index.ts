@@ -1,3 +1,4 @@
+export * from 'react-query';
 export * from './apiCalls';
 export * from './contracts';
 export * from './httpClient';

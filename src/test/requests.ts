@@ -1,7 +1,6 @@
 import * as handlers from './handlers';
 
-const { paymentsHandlers, projectsHandlers, reminderHandlers, reportingsHandlers, sessionHandlers, surveyHandlers } =
-  handlers;
+const { paymentsHandlers, projectsHandlers, reminderHandlers, reportingsHandlers, sessionHandlers } = handlers;
 
 export const requests = [
   ...paymentsHandlers,
@@ -9,5 +8,4 @@ export const requests = [
   ...reminderHandlers,
   ...reportingsHandlers,
   ...sessionHandlers,
-  ...surveyHandlers,
 ];

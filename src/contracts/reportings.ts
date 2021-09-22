@@ -2,7 +2,7 @@ import { Money, Months } from './common';
 
 type ReportStatus = 'completed' | 'error' | 'pending';
 
-export type ComparableDetails = {
+type ComparableDetails = {
   trees_to_plant: number;
   packages_delivered: number;
   cows_annually: number;
@@ -73,17 +73,15 @@ export type GetReportStatusResponse = {
 
 export type GetFootprintsPayload = FootprintGenericPayload;
 
-export type GroupByCategoryComparableDetails = {
-  [K in Categories]: ComparableDetails;
-};
-
 export type GetFootprintsResponse = {
   footprints: {
     all: Footprint;
     grouped_by_category: GroupByCategoryFootprintResponse;
     grouped_by_month: GroupByMonthFootprintResponse;
   };
-  comparables: GroupByCategoryComparableDetails;
+  comparables: {
+    [K in Categories]: ComparableDetails;
+  };
   peers: {
     co2_annually: Footprint;
   };

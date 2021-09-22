@@ -103,15 +103,6 @@ export const getOffsetsDetailsFailed = rest.get(REPORTINGS_OFFSETS_DETAILS_ENDPO
   )
 );
 
-export const getFootprintsFailed = rest.get(REPORTINGS_FOOTPRINTS_ENDPOINT, (_, res, ctx) =>
-  res.once(
-    ctx.status(403),
-    ctx.json({
-      messages: 'Forbidden access',
-    })
-  )
-);
-
 export const reportingsHandlers = [
   getOffsetsDetailsSuccess,
   getOffsetsSuccess,

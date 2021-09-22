@@ -13,7 +13,9 @@ type PostPaymentOptions = {
 const postPayment = (client: HttpClient, { payload }: PostPaymentOptions) => ({
   queryKey: POST_PAYMENT_QUERY_KEY,
   post: () =>
-    client.post<PostPaymentsPayload, PostPaymentsResponse>(PAYMENTS_ENDPOINT, { ...payload }).then(({ data }) => data),
+    client
+      .post<PostPaymentsPayload, PostPaymentsResponse>(PAYMENTS_ENDPOINT, { ...payload })
+      .then(({ data }) => data),
 });
 const usePostPayment = (client: HttpClient, postPaymentsPayload: PostPaymentsPayload) => {
   return useApiFactory<ApiPostService<PostPaymentsResponse>, PostPaymentOptions>(client, postPayment, {

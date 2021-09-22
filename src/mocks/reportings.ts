@@ -2109,7 +2109,7 @@ const offsetsDetails_1 = {
     transactions: [
       {
         id: '1',
-        date: '2021-07-28',
+        date: '2021-07-28T08:30Z',
         money: {
           amount: 123.45,
           currency: 'EUR',
@@ -2120,7 +2120,7 @@ const offsetsDetails_1 = {
       },
       {
         id: '2',
-        date: '2021-07-20',
+        date: '2021-07-20T06:30Z',
         money: {
           amount: 345.45,
           currency: 'EUR',
@@ -2130,35 +2130,35 @@ const offsetsDetails_1 = {
         offset: 14000,
       },
       {
+        id: '3',
+        date: '2021-07-20T07:30Z',
+        money: {
+          amount: 123.45,
+          currency: 'EUR',
+        },
+        name: 'Third Offsetting',
+        description: "by donation for Greentech's Emissions Reduction, Gold Standard",
+        offset: 4890,
+      },
+      {
+        id: '4',
+        date: '2021-07-14T07:45Z',
+        money: {
+          amount: 450.21,
+          currency: 'EUR',
+        },
+        name: 'Fourth Offsetting',
+        description: "by donation for Greentech's Emissions Reduction, Gold Standard",
+        offset: 23450,
+      },
+      {
         id: '5',
-        date: '2021-07-08',
+        date: '2021-07-14T09:45Z',
         money: {
           amount: 123.45,
           currency: 'EUR',
         },
         name: 'Fifth Offsetting',
-        description: "by donation for Greentech's Emissions Reduction, Gold Standard",
-        offset: 4890,
-      },
-      {
-        id: '3',
-        date: '2021-07-14',
-        money: {
-          amount: 450.21,
-          currency: 'EUR',
-        },
-        name: 'Third Offsetting',
-        description: "by donation for Greentech's Emissions Reduction, Gold Standard",
-        offset: 23450,
-      },
-      {
-        id: '4',
-        date: '2021-07-11',
-        money: {
-          amount: 123.45,
-          currency: 'EUR',
-        },
-        name: 'Fourth Offsetting',
         description: 'by donation for EcoFood, Gold Standard',
         offset: 1234,
       },
@@ -2171,7 +2171,7 @@ const offsetsDetails_2 = {
     transactions: [
       {
         id: 'example-transaction-id',
-        date: '2021-07-28',
+        date: '2021-07-28T07:45Z',
         money: {
           amount: 123.45,
           currency: 'EUR',
@@ -2195,7 +2195,7 @@ const offsetsDetails_4 = {
     transactions: [
       {
         id: 'example-transaction-id',
-        date: '2021-07-28',
+        date: '2021-07-28T07:45Z',
         money: {
           amount: 123.45,
           currency: 'EUR',
@@ -2213,7 +2213,7 @@ const offsetsDetails_5 = {
     transactions: [
       {
         id: 'example-transaction-id',
-        date: '2021-07-28',
+        date: '2021-07-28T07:45Z',
         money: {
           amount: 123.45,
           currency: 'EUR',
@@ -2231,7 +2231,7 @@ const offsetsDetails_6 = {
     transactions: [
       {
         id: 'example-transaction-id',
-        date: '2021-07-28',
+        date: '2021-07-28T07:45Z',
         money: {
           amount: 123.45,
           currency: 'EUR',
@@ -2249,7 +2249,7 @@ const offsetsDetails_7 = {
     transactions: [
       {
         id: 'example-transaction-id',
-        date: '2021-07-28',
+        date: '2021-07-28T07:45Z',
         money: {
           amount: 123.45,
           currency: 'EUR',
@@ -2267,7 +2267,7 @@ const offsetsDetails_8 = {
     transactions: [
       {
         id: 'example-transaction-id',
-        date: '2021-07-28',
+        date: '2021-07-28T07:45Z',
         money: {
           amount: 123.45,
           currency: 'EUR',
@@ -2285,7 +2285,7 @@ const offsetsDetails_9 = {
     transactions: [
       {
         id: 'example-transaction-id',
-        date: '2021-07-28',
+        date: '2021-07-28T07:45Z',
         money: {
           amount: 123.45,
           currency: 'EUR',
@@ -2303,7 +2303,7 @@ const offsetsDetails_10 = {
     transactions: [
       {
         id: 'example-transaction-id',
-        date: '2021-07-28',
+        date: '2021-07-28T07:45Z',
         money: {
           amount: 123.45,
           currency: 'EUR',
@@ -2321,7 +2321,7 @@ const offsetsDetails_11 = {
     transactions: [
       {
         id: 'example-transaction-id',
-        date: '2021-07-28',
+        date: '2021-07-28T07:45Z',
         money: {
           amount: 123.45,
           currency: 'EUR',
@@ -2339,7 +2339,7 @@ const offsetsDetails_12 = {
     transactions: [
       {
         id: 'example-transaction-id',
-        date: '2021-07-28',
+        date: '2021-07-28T07:45Z',
         money: {
           amount: 123.45,
           currency: 'EUR',
