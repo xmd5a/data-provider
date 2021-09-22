@@ -1,6 +1,6 @@
 {
   "name": "@xmd5a/data-provider",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "data provider",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,8 @@
   "author": "Piotr Szarmach <zakaru@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf ./dist && tsc"
+    "build": "rimraf ./dist && tsc",
+    "prepublishOnly": "yarn run build"
   },
   "dependencies": {
     "@testing-library/react": "^11.2.5",
